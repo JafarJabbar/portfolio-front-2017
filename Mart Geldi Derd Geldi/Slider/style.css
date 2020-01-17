@@ -1,0 +1,27 @@
+.slider{
+	width: 1270px;
+	height: 700px;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+.thumbs{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content:center;
+}
+.thumb{
+	margin-top:600px;
+	margin-bottom: 50px;
+}
+img:hover{
+	transition: all .5s;
+	transform: scale(2);
+	box-shadow: 4px 4px 10px gray;
+}
+img{
+		box-shadow: 2px 2px 5px gray;
+	border: 1px solid white;
+}

@@ -1,0 +1,52 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.images{
+	width: 100%;
+	height: 1000px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.thumbs{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content:flex-end;
+}
+img:hover{
+	transition: all .5s;
+	transform: scale(2);
+	box-shadow: 4px 4px 10px gray;
+}
+img{
+		box-shadow: 2px 2px 5px gray;
+	border: 1px solid white;
+}
+button{
+	color: gray;
+	width: 100px;
+	height:30px;
+	background-color: pink;
+	border: none;
+}
+button:hover{
+	transition: all 1s;
+transform: scale(1.5);
+}
+.effects{
+		display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content:flex-end;
+}
+.main{
+	width: 100%;
+	height: 250px;
+	background-color: gray; 
+}
+.effects{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

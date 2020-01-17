@@ -1,0 +1,50 @@
+input{
+  border: none;
+  height: 30px;
+  background-color:#294274 ;
+  color: white;
+}
+*{
+  outline: none;
+}
+#yearMonth{
+  border: none;
+  height: 30px;
+  background-color:#4568AF ;
+  color: white;
+}
+#text{
+  padding-top: 10px;
+}
+span{
+  float: left;
+}
+.deposit p{
+  margin-left: 50px;
+}
+.resultSpan {
+  padding: 20px;
+}
+#money,#month,#yearMonth{
+  margin: 50px;
+  border-bottom: 2px solid gray;
+}
+#money,#month{
+  background: #4568AF;
+  margin-top: 0;
+}
+input[type=range]{
+
+}
+#percent{
+  padding: 20px;
+  line-height:  20px;
+}
+body{
+  background-color: #4568AF;
+  color: white;
+}
+#results{
+  background: #294274;
+  margin-right: 20px;
+}

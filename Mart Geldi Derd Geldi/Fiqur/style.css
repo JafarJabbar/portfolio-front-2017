@@ -1,0 +1,25 @@
+body{
+	background-color:#4AABFF;
+}
+.clear{
+	clear: both;
+}
+.four{
+	float: left;
+}
+.roun{
+	float: right;
+	margin: 50px 0;
+}
+.buttons{
+	color: white;
+	font-family: verdana;
+}
+button{
+	color: white;
+	background-color: gray;
+	border: none;
+}
+h1{
+	color: white;
+}

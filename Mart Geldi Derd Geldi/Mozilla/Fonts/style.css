@@ -1,0 +1,13 @@
+body{
+	background-color:#e8e8e8;
+	color: #484800;
+}
+button{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	color: #484800;
+}
+.clear{
+	clear: both;
+}

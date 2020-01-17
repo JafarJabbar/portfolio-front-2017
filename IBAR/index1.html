@@ -1,0 +1,241 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/logUp.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IBAR</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/grid.css">
+
+</head>
+<body>
+  <div class="main">
+  <!-- Header Section -->
+  <div class="wrapper" >
+    <div class="row">
+      <div class="header">
+        <div class="col12">
+          <div class="logo">
+            <div class="col2">
+            <img onclick="mainPage()" src="images/logo.svg" alt="">
+            </div>
+          </div>
+          <div class="mainMenu">
+            <div class="col3">
+              <ul>
+                <li  onclick="ferdiMenu()">Fərdi</li>
+                <li onclick="koopMenu()">Korporativ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="addMenu">
+            <div class="col7">
+              <ul>
+                <button id="netServices"><a>InternetBank</a></button>
+                <li>
+                  <ul id="currency">
+                      <li>GBP 2.0617 ALIŞ• 2.1680 SATIŞ</li>
+                      <li>RUR 0.0286 ALIŞ• 0.0304 SATIŞ</li>
+                      <li>EUR 1.7973 ALIŞ• 1.8500 SATIŞ</li>
+                      <li>USD 1.6700 ALIŞ• 1.7400 SATIŞ</li>
+                  </ul>
+                </li>
+                <li> <a href="#">Bizimlə əlaqə</a> </li>
+                <li><a href="#">Bank online</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header Section -->
+
+
+  <div class="clear"></div>
+
+            <!-- ferdi section -->
+
+            <div class="ferdi">
+
+
+                <div class="ferdiList">
+                  <p>Fərdi</p>
+                <ul>
+                  <li>Bank 24/7</li>
+                  <li>Əmanətlər</li>
+                  <li>Elektron xidmətlər</li>
+                  <li>Cari hesab</li>
+                </ul>
+                <ul>
+                  <li>Kreditlər</li>
+                  <li>Ödəniş kartları</li>
+                  <li>Köçürmələr</li>
+                  <li>Kampaniyalar</li>
+                </ul>
+                </div>
+            </div>
+
+            <!--end ferdi section -->
+
+
+
+              <div class="clear"></div>
+
+                        <!-- kooperativ section -->
+
+                        <div class="kooperativ">
+
+
+                            <div class="kooperativList">
+                              <p>Kooperativ</p>
+                            <ul>
+                              <li>Elektron bankçılıq</li>
+                              <li>Biznes kreditləri</li>
+                              <li>Sənədli əməliyyatlar</li>
+                              <li>Əmanətlər</li>
+                            </ul>
+                            <ul>
+                              <li>Ödəniş kartları</li>
+                              <li>Köçürmələr</li>
+                              <li>Kampaniyalar</li>
+                              <li>Bizimlə əlaqə</li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <!--end kooperativ section -->
+
+            <!-- Slider Section -->
+
+
+            <div class="wrapper">
+              <div class="row">
+                <div class="slider">
+                  <div class="col12">
+                    <div class="search">
+            <span onclick="inputFunc(event)" id="click">
+              <h1 id="header">  Sizə necə kömək edə bilərik?</h1>
+             <i class="fa fa-search" aria-hidden="true"></i>
+             <input class="clickInput" type="text">
+            </span>
+
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          <div id="hiddenOption">
+            <ul>
+              <li onclick="searchItem(event)">Məsələn:</li>
+              <li onclick="searchItem(event)">Valyuta</li>
+              <li onclick="searchItem(event)">Kredit</li>
+              <li onclick="searchItem(event)">Depozit</li>
+              <li onclick="searchItem(event)">Kart</li>
+              <li onclick="searchItem(event)">İnternet Banking</li>
+            </ul>
+          </div>
+          </div>
+          <div class="images">
+            <div class="col4">
+              <p></p>
+              <div onclick="change(event)" value="1" class="dot" style="  background-color: transparent;
+                border: 2px solid white;">
+
+              </div>
+              <div onclick="change(event)" value="2"  class="dot">
+
+              </div>
+              <div onclick="change(event)" value="3"  class="dot">
+
+              </div>
+            </div>
+          <div class="col2">
+            <p>Ödənişlər aparın</p>
+            <i class="fa fa-credit-card fa-4x" aria-hidden="true"></i>
+            <span><a href="#">Ətraflı</a></span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- end Slider Section -->
+
+
+<div class="clear"></div>
+
+
+  <!-- footer section -->
+
+  <div class="wrapper">
+    <div class="row">
+      <div class="footer">
+        <div class="col12">
+          <div class="footerMenu">
+            <div class="col5">
+              <ul>
+              <li><a href="#">Haqqımızda</a></li>
+              <li><a href="#">Xidmət şəbəkələri</a></li>
+              <li><a href="#">Xəbərlər</a></li>
+              <li><a href="#">Tariflər</a></li>
+              <li><a href="#">Məzənnələr</a></li>
+                            </ul>
+                <blockquote>
+                  <i class="fa fa-copyright" aria-hidden="true">Azərbaycan Beynəlxalq Bankı - Bütün hüquqlar qorunur  Created by C.Cabbarlı</i>
+
+                </blockquote>
+                </div>
+                </div>
+                <div class="support">
+                  <div class="col2">
+                    <a href="http://www.virtualkarabakh.az/">  <img src="images/vq.png" alt=""></a>
+                    <a href="http://adif.az/"><img src="images/adif.png" alt=""></a>
+            </div>
+          </div>
+          <div class="languages">
+            <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">По-русски</a></li>
+           </ul>
+           <span>
+             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+           </span>
+          </div>
+          <div class="call">
+            <div class="col1">
+            <a href="#"><img src="images/call.png" alt=""></a>
+          </div>
+          </div>
+          <div class="onlineMsg col1 right">
+            <img src="images/download.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer section -->
+<div class="clear"></div>
+
+<!-- side menu section -->
+<div class="sideMenu">
+  <h1>InternetBank <p onclick="close()">X</p></h1>
+  <hr style="padding-top:100px; width:300px; border:none; border-bottom:1px solid white; opacity:.3;">
+<ul>
+  <li>Fərdi InternetBank</li>
+  <li>Korporativ InternetBank</li>
+</ul>
+</div>
+<!--end side menu section -->
+</div>
+
+</body>
+</html>
+<script src="js/script.js" charset="utf-8"></script>

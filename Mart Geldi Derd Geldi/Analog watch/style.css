@@ -1,0 +1,40 @@
+html,body{
+	margin: 0;
+	padding:0;
+}
+#sec{
+	position:absolute;
+	top: 50px;
+	left: 195px; 
+	width: 10px;
+	height: 150px;
+	background-color: black;
+	float: left;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+		border:1px solid white;
+
+}
+#min{
+	position:absolute;
+	top: 100px;
+	left: 190px; 
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+		border:1px solid white;
+
+}
+#hour{
+	position:absolute;
+	top: 95px;
+	left: 195px; 
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	border:1px solid white;
+}

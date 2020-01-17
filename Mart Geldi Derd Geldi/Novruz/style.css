@@ -1,0 +1,15 @@
+body{
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+p{
+	font-style: verdana;
+	font-size: 30px;
+	text-align:center;
+}
+.last{
+	border: 1px solid white;
+	background:gray;
+}

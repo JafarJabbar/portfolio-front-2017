@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/calcStyle.css">
+</head>
+<body>
+  <h1>Kalkulyator</h1>
+  <span class="deposit">
+    <p>Əmanətin məbləği</p>
+  <p id="moneyP"></p>
+  <input  id="money" value="300000" step="100" min="0" max="1000000" type="range">
+  </span>
+  <span class="deposit">
+    <p>Müddət</p>
+  <p id="monthP"></p>
+  <input id="month" value="12"  min="12" max="36" step="12" type="range">
+  </span>
+  <p id="text">Faizlərin ödənilməsi</p>
+  <select id="yearMonth">
+    <option id="monthOption" value="month" >Hər ay</option>
+    <option id="yearOption" value="year"> Hər il</option>
+  </select>
+  <br><br><br>
+  <span id="results">
+<span class="resultSpan"><p>Faizlərin ümumi məbləği</p> <input type="text"  disabled id="resultMonthPay"></span>
+
+<span class="resultSpan"><p id="paragraph">Hər ay ödənilən faiz</p> <input type="text" disabled  id="resultMonthPercent"></span>
+</span>
+<p id="percent"></p>
+
+<script src="js/calcScript.js"></script>
+
+</body>
+</html>

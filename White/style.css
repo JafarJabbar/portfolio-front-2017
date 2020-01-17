@@ -1,0 +1,727 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+.yuzfaiz{
+  width: 100%;
+  background-image: url(1.jpg);
+  background-size:cover;
+  transition: all .5s ease;
+}
+.yuzfaiz2{
+  width: 100%;
+  background-image: url(qara.jpg);
+  background-size:cover;
+
+}
+.yuzfaiz3{
+  width:100%;
+}
+
+.header {
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    background: white;
+    font-size: 13px;
+    color: #333333;
+    border-bottom: 2px solid lightgray;
+    box-shadow: 1px 1px 1px lightgray;
+    position: fixed;
+}
+
+ul li {
+    float: right;
+}
+ul li:first-child{
+display: none;}
+ul li {
+    color: gray;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#srv {
+    color: #333333;
+    font-size: 80px;
+    position: relative;
+    top: 0;
+}
+
+#vrs {
+    color: #333333;
+    font-size: 26px;
+    position: relative;
+    top: 0;
+}
+
+ul li {
+    margin: 20px;
+    line-height: 20px;
+}
+
+.header .menu {
+    margin-top: 10px;
+}
+
+.header ul li a:hover {
+    color: black;
+    transition: all .5s;
+}
+
+.header .search * {
+    float: right;
+    border: none;
+    line-height: 30px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.header .search i {
+    color: lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.slider {
+    height: 800px;
+
+}
+
+.slider img {
+    width: 120px;
+    height: 70px;
+}
+
+#srv span {
+    font-weight: bold;
+}
+
+.text {
+    float: left;
+}
+
+#srv {
+    color: #333333;
+    font-weight: normal;
+    margin-top: 150px;
+}
+
+#vrs {
+    color: #333333;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.slider .thumb {
+    margin-top: 150px;
+    display: inline-flex;
+}
+
+  .thumb button:first-child {
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: white;
+    border: none;
+    margin-left: 20px;
+    border-right: 1px solid black;
+}
+
+.thumb button:nth-child(2) {
+    width: 70px;
+    background: white;
+    border: none;
+    height: 70px;
+    float: left;
+    margin-right: 250px;
+}
+
+.thumb button:last-child {
+    width: 150px;
+    height: 70px;
+    background: white;
+    border: none;
+    margin-left: 250px;
+}
+
+.thumb button:hover {
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
+
+
+
+.slider .thumb>div {
+    box-sizing: border-box;
+    margin: 100px 0px;
+}
+
+.thumbs p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.thumbs h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.thumbs .col3 h1 span {
+    font-weight: bold;
+}
+
+.thumbs hr {
+    float: left;
+    width: 20px;
+    height: 1px;
+    background-color: gray;
+    border: none;
+}
+
+.thumbs {
+    margin: 80px 0;
+}
+
+.tkst {
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.tkst h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.black h1 {
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+.black {
+    height: 590px;
+    margin-top: 80px;
+    color: lightgrey;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.black i {
+    font-size: 40px;
+}
+
+.black p {
+    text-align: left;
+    color: #998282;
+    font-size: 20px;
+}
+
+.black .col2 {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.black .col2 p {
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#actTAb {
+    background: white;
+    color: black;
+    transition: all .5s;
+}
+
+.col2:hover p {
+    visibility: visible;
+}
+
+.wordpress p {
+    font-size: 17px;
+    color: #998282;
+}
+
+.wordpress {
+    margin: 70px 0;
+    font-size: 20px;
+}
+
+.wordpress h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.wordpress h1 span {
+    color: #1C1C1C;
+    font-weight: bold
+}
+
+.wordpress button {
+    color: white;
+    width: 180px;
+    height: 70px;
+    background: black;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.wordpress button:last-child {
+    color: lightgrey;
+    border: 2px solid lightgrey;
+    margin-left: 20px;
+    background: white;
+}
+
+.wordpress button:last-child:hover {
+    transition: all .5s;
+    color: black;
+    border: 2px solid black;
+}
+
+.telefon {
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading h1 span {
+    font-weight: bold;
+}
+
+.imgs {
+    margin-top: 60px;
+}
+
+.imgs img {
+    width: 100%;
+    height: 100%;
+    margin:auto 0px !important:
+}
+
+.imgs img:hover{
+    background-color: black;
+    opacity: .6;
+    transform: scale(.9);
+    transition: all .5s;
+}
+
+.heading button {
+    float: right;
+}
+
+.heading button {
+    height: 70px;
+    width: 70px;
+    background: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.heading button:hover {
+    border-color: black;
+    color: black;
+    transition: all .5s;
+}
+
+.reklam {
+    margin: 100px 0px;
+}
+
+.reklam img {
+    filter: grayscale(100%);
+}
+
+.reklam img:hover {
+    filter: none;
+    transition: all .5s;
+}
+
+.team {
+    height: 700px;
+
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.team img{
+  width: 100%;
+}
+
+.hdng {
+    padding: 70px;
+}
+
+.hdng button {
+    background: transparent;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    height: 70px;
+    width: 70px;
+    border-collapse: collapse;
+}
+
+.hdng button:hover {
+    border: 1px solid black;
+    color: black;
+    -webkit-transition: ;
+    -o-transition: ;
+    transition: ;: all .5s;
+}
+
+.profiles {
+    margin-top: 100px;
+    display: inline-flex;
+}
+
+.team .profiles img {
+    margin: 0px 10px;
+}
+
+.balashova {
+    margin-top: 75px;
+}
+
+.balashova h1 {
+    color: #333333;
+    font-size: 40px;
+}
+
+.balashova p {
+    margin-top: 80px;
+    color: #333333;
+    font-size: 26px;
+}
+
+.statHeader .first {
+    font-size: 16px;
+    font-weight: lighter!important;
+}
+
+.statHeader .second {
+    font-size: 16px;
+}
+
+.photoText {
+    margin-top: 80px;
+    text-align: center;
+    color: #333333;
+}
+
+.photoText h1 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 25px;
+    line-height: 50px;
+}
+
+.photoText p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.photoText img {
+    width: 370px;
+    height: 210px;
+}
+
+.footer {
+    background: #1C1C1C;
+    height: 400px;
+    margin-top: 150px;
+    color: white;
+}
+
+.footer .faturedPosts h1 {
+    font-size: 20px;
+}
+
+.footer .faturedPosts img {
+    float: left;
+    width: 70px;
+    height: 50px;
+}
+
+.faturedPosts {
+    margin: 65px;
+    margin-right: 0;
+    color: white;
+}
+
+.faturedPosts div:hover img {
+    opacity: .5;
+    transition: all .5s;
+}
+
+.faturedPosts div:hover {
+    color: #4A4A4A;
+    transition: all .5s;
+}
+
+.footer .faturedPosts div {
+    margin: 15px 0px;
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .faturedPosts p span {
+    font-size: 10px;
+    color: #4A4A4A;
+    font-weight: normal !important;
+}
+
+.footer .faturedPosts div img {
+    margin-right: 10px;
+}
+
+.aboUs {
+    margin-right: 0;
+    margin: 65px;
+}
+
+.aboUs p {
+    margin-bottom: 10px;
+    color: #4A4A4A;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.aboUs a {
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    color: #232323;
+    border: 1px solid #232323;
+    padding: 15px;
+    padding-left: 18px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.conUs input:last-child {
+    color: #232323;
+    width: 160px;
+}
+
+.conUs input:last-child:hover {
+    color: white;
+    border-color: white;
+    transition: all .5s;
+}
+
+.aboUs a:hover {
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    transition: all .5s;
+}
+
+.conUs {
+    margin: 65px;
+    margin-left: 0px;
+}
+
+.conUs input {
+    background: transparent;
+    width: 370px;
+    border: 1px solid #232323;
+}
+
+.conUs input:last-child {
+    margin-top: 15px;
+}
+
+.conUs input {
+    color: #232323;
+    height: 40px;
+}
+
+.conUs textarea {
+    color: #232323;
+    height: 90px;
+    resize: none;
+    background: transparent;
+    width: 370px;
+    border: 1px solid #232323;
+    margin-top: 15px;
+}
+
+.conUs textarea:focus {
+    color: white;
+    border-color: white;
+    transition: all .5s;
+}
+
+.conUs input:focus {
+    color: white;
+    border-color: white;
+    transition: all .5s;
+}
+.yuzfaiz4{
+  width: 100%;
+  background-image: url(divar.jpg);
+}
+.profiles .col4:hover{
+  opacity: .5;
+}
+.profiles .col4:hover{
+    background-color: black;
+}
+
+@media (max-width:1260px) and (min-width:600) {
+    .wrapper {
+        max-width: 960px;
+    }
+    .header .col10{
+      width: 83%;
+    }
+    .slider {
+        width: 960px;
+    }
+    .search input{
+      width: 200px;
+    }
+    .thumb button:nth-child(1) {
+    margin-left: 20px;
+}
+    .thumb button:nth-child(2) {
+        margin-right: 100px;
+    }
+    .thumb button:last-child {
+        margin-left: 60px;
+    }
+    .footer .col4{
+      margin-top: -40px;
+      width: 50%;
+    }
+    .footer .col3{
+      width: 50%;
+    }
+    .footer .col5{
+      width: 50%;
+    }
+    .footer{
+      height: 1200px;
+    }
+}
+
+.telefon{
+  margin-left: -20px;
+}
+
+@media (max-width:600px) {
+  .profiles .col4{
+    max-width: 100%;
+  }
+  .wrapper{
+    max-width: 600px;
+  }
+.header{
+  max-width: 600px;
+}
+.col2{
+  max-width: 50%;
+}
+.header .menu ul{
+display: none;
+}
+
+.slider{
+  max-height: none;
+}
+.header{
+  max-height:200px
+}
+.thumbs .col3{
+  width: 100%;
+}
+.black .col2{
+  width: 50%;
+}
+.black{
+  height: 1000px;
+}
+.telefon{
+  width: 50%;
+  }
+
+.reklam .col2{
+  width: 50%;
+}
+#srv{
+  font-size: 50px;
+}
+#vrs{
+  font-size: 30px;
+}
+.slider button{
+  max-width: 40px;
+  max-height: 40px;
+}
+.slider button:last-child{
+max-width: 100px;
+max-height: 40px;
+margin-right: 40px;
+}
+.thumb button:last-child {
+  margin-left: 50px;
+}
+.slider img{
+  max-width: 50px;
+  max-height: 30px;
+}
+.thumb button:nth-child(2) {
+margin-right: 80px;
+}
+.footer .col4{
+  width: 100%;
+}
+.footer .col5{
+  width: 100%;
+}
+.footer .col3{
+  width: 100%;
+}
+.footer{
+  height: 1200px;
+}
+.solteref .col7{
+width: 100%;
+}
+.telefon img{
+  margin-top: 120px;
+}
+.tkst{
+  font-size: 20px;
+}
+.photoText .col4{
+  width: 100%;
+}

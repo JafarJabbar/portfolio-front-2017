@@ -1,0 +1,18 @@
+.acc{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	background-color: lightgray;
+
+}
+p{
+	color: #484800;
+	background-color: lightgray;
+}
+button{
+	width: 100px;
+	height: 30px;
+	background-color: gray;
+	color: white;
+	display: block;
+}

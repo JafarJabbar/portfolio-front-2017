@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="images" style="background-image:url(1.jpg) filter:opacity(0);">
+
+	</div>
+	<div class="main">
+		<div class="thumbs">
+	<div class="thumb">
+			<img src="1.jpg" onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="2.jpg"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="3.jpg"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="4.png"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="5.jpg"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="6.jpg"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="7.jpg"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		<div class="thumb">
+			<img src="8.jpg"  onclick="slider(this)" style="width: 100px; height: 50px;">
+		</div>
+		</div>
+		<div class="effects">
+			<button onclick="effect(this)" value="grayscale(100%)">Monochrome</button>
+			<button onclick="effect(this)" value="blur(5px)">Blur</button>
+			<button onclick="effect(this)" value="brightness(200%)">Bright</button>
+			<button onclick="effect(this)" value="contrast(200%)">Contrast</button>
+			<button onclick="effect(this)" value="drop-shadow(8px 8px 10px gray)">Shadow</button>
+			<button onclick="effect(this)" value="hue-rotate(90deg)">Hue</button>
+			<button onclick="effect(this)" value="invert(100%)">Neqative</button>
+			<button onclick="effect(this)" value="opacity(30%)">Opacity</button>
+			<button onclick="effect(this)" value="saturate(800%)">Saturate</button>
+			<button onclick="effect(this)" value="sepia(100%)">Sepia</button>
+			<button onclick="effect(this)" value="opacity(100%)">Normal</button>
+
+		</div>
+		</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,431 @@
+*{
+  transition:all .5s;
+  outline: none;
+}
+a{
+  color: #C4CFE6;
+}
+body{
+  background: #1B3E85;
+}
+.main{
+    height: 720px;
+    overflow: hidden;
+    background: radial-gradient(#BDC9E3,#829ACA,#8099C9,#647EB5,#5878B8,#4367AF,#385EAA,#3B61AB,#335AA8,#335AA8,#365CA9,#1B3E85);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #C4CFE6 ;
+    background-size: cover;
+}
+/*header section*/
+.logo img{
+  cursor: pointer;
+}
+.header .mainMenu ul li{
+  float: left;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 22px;
+  padding: 0 30px;
+  font-weight: lighter;
+}
+.header .mainMenu ul li:hover{
+  background-color: #8199C9;
+  border-radius: 5px;
+  transition: all .5s ease;
+
+}
+.header .addMenu ul li{
+  height:30px;
+  overflow: hidden;
+float: right;
+margin: 10px;
+line-height: 30px;
+cursor: pointer;
+}
+@keyframes changeCurrency {
+  14.285%{
+    top: -10px;
+  }
+  28.57%{
+    top: -50px;
+  }
+  42.85%{
+    top: -90px;
+  }
+  57.14%{
+    top: -130px;
+  }
+  71.42%{
+    top: -90px;
+  }
+  85.71%{
+    top: -50px;
+  }
+  100%{
+   top: -10px;
+  }
+}
+#currency li{
+  position: relative;
+  top: -10px;
+  animation: changeCurrency 20s infinite;
+  float: none;
+
+}
+
+.header .addMenu button a{
+  text-decoration: none;
+  font-size: 14px;
+
+}
+.header .addMenu ul li a{
+  font-size: 14px;
+}
+.header .addMenu  button{
+  float: right;
+  margin: 5px;
+  width: 120px;
+  height: 40px;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.header .addMenu  button:hover{
+ background-color: #4568AF;
+ transition: all .5s ease;
+
+}
+/* end header section */
+
+
+/*content section*/
+.slider{
+  height: 250px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.slider input{
+  height:0;
+  width: 600px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.slider span h1{
+  position: relative;
+  top: 0;
+  left:280px;
+}
+#click{
+  transition: all .5s;
+  text-align: left;
+  cursor: pointer;
+}
+.clickInput{
+  color: white;
+  font-size: 40px;
+}
+.slider .search i{
+  margin-left:30px;
+}
+.slider span i{
+  position: relative;
+  left: 640px;
+}
+.slider p i:last-child{
+  cursor: pointer;
+}
+.slider .images{
+  margin-top: 50px;
+  margin-left: 280px;
+}
+.slider .search i:hover{
+  font-size: 1.1em;
+}
+.slider .search{
+  position: relative;
+  top: 0;
+}
+.slider .images .col4{
+  width: 400px;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 0px 50px black;
+  cursor: pointer;
+  background-color:white;
+  opacity: .4;
+}
+.slider .images .col2{
+  cursor: pointer;
+  opacity: .6;
+  background-color: #6F8AC1;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 0 50px black;
+}
+.slider .images .col2 p{
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.slider .images .col2 i{
+    font-size: 1.2em;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+.slider .images .col2 span a{
+  position: relative;
+  bottom: 30px;
+  right: 50px;
+  font-size: 14px;
+}
+.slider .images .col2:hover{
+  transform: scale(1.01);
+  transition: all .5s ease;
+}
+#hiddenOption{
+  text-align: center;
+  display: none;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#hiddenOption ul li:first-child {
+  background-color: transparent;
+  pointer-events: none;
+}
+#hiddenOption ul li {
+  position: relative;
+  left: 300px;
+  float: left;
+  background-color: #738EC4;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.dot{
+  opacity: 1;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+/*end content section*/
+
+/*footer section*/
+.footer{
+  height: 50px;
+}
+.footerMenu ul li{
+  float: left;
+  padding: 30px 10px;
+}
+.footerMenu ul li:hover a{
+  text-decoration: none;
+  transition: all .5s ease;
+
+}
+
+.support .col2{
+  margin: 30px 0 30px 50px;
+}
+.footer .support .col2 img{
+  width: 50px;
+  min-height: 50px;
+float: left;
+cursor: pointer;
+}
+.footer .support .col2 img:last-child{
+  padding-left: 10px;
+}
+.footer .support .col2 img:first-child{
+  padding-right: 10px;
+}
+.footer .languages{
+  opacity: .6;
+}
+.footer .languages ul li{
+  float: left;
+  margin: 30px 10px;
+}
+.footer .languages ul li a:hover{
+  text-decoration: none;
+  transition: all .5s ease;
+
+}
+.footer .languages span {
+  position: relative;
+  top: 60px;
+  right: 140px;
+}
+.footer .languages span i{
+  opacity: .6;
+  font-size: 1.5em;
+  padding: 5px;
+}
+.call img{
+  opacity: .6;
+  margin-left: 50px;
+}
+.onlineMsg{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #1B3E85;
+  margin-top: -20px;
+  cursor: pointer;
+}
+.onlineMsg img{
+  width:40px;
+  padding: 25px;
+}
+.onlineMsg:hover{
+  box-shadow: 0 0 10px black;
+  transition: all .5s ease;
+
+}
+/*end footer section*/
+
+
+/* side menu section*/
+.sideMenu{
+ background:url(../images/kiwi.jpg);
+  width: 400px;
+  height: 750px;
+  position: relative;
+  top: -750px;
+left:400px;
+float:right;
+}
+.sideMenu ul li{
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 100;
+  cursor: pointer;
+  line-height: 100px;
+}
+.sideMenu ul li:hover{
+  background-color: #7892C6;
+}
+.sideMenu h1{
+  position: relative;
+  top: 77px;
+  left: 70px;
+  font-size: 30px;
+}
+.sideMenu p{
+  position: relative;
+  top: -30px;
+  left: 250px;
+}
+.sideMenu h1 p:hover{
+  cursor: pointer;
+  transform: rotate(180  deg);
+  transition: all 1s;
+}
+/* end side menu section*/
+
+
+/*ferdi section style*/
+
+.ferdi{
+  font-weight: 300;
+  background-repeat: no-repeat;
+  display: none;
+  width: 100%;
+  height:350px;
+  opacity: .6;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ferdi p{
+  color: #C4CFE6;
+  font-size: 60px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.ferdi ul li{
+  cursor: pointer;
+  color: #C4CFE6;
+  font-size: 25px;
+  line-height: 50px;
+}
+.ferdi ul li:hover{
+  text-decoration: underline;
+  transition:all .5s;
+}
+.ferdi ul{
+  padding-left: 30px;
+  float: left;
+}
+
+.ferdiList{
+  padding-top: 100px;
+  text-align: left;
+
+}
+/* end ferdi section style*/
+
+
+
+/*kooperativ section style*/
+
+.kooperativ{
+  font-weight: 300;
+  background-repeat: no-repeat;
+  display: none;
+  width: 100%;
+  height:350px;
+  opacity: .6;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kooperativ p{
+  color: #C4CFE6;
+  font-size: 60px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.kooperativ ul li{
+  cursor: pointer;
+  color: #C4CFE6;
+  font-size: 25px;
+  line-height: 50px;
+}
+.kooperativ ul li:hover{
+  text-decoration: underline;
+  transition:all .5s;
+}
+.kooperativ ul{
+  padding-left: 30px;
+  float: left;
+}
+
+.kooperativList{
+  padding-top: 100px;
+  text-align: left;
+
+}
+/*end kooperativ section style*/
